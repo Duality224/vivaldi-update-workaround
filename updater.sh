@@ -17,5 +17,5 @@ apt-get upgrade
 flatpak update
 
 #restarting vivaldi as a standalone process and exiting terminal window
-sudo -u [USERNAME] /path/to/standalone.sh /opt/vivaldi/vivaldi
+sudo -u USERNAME /path/to/standalone.sh /opt/vivaldi/vivaldi
 exit
