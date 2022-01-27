@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Updater
+Comment=System Updater
+Exec=/path/to/updater.sh
+Terminal=true
+Type=Application
+Categories=Application
+Icon=/path/to/icon.png
