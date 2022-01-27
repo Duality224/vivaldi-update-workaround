@@ -1,5 +1,5 @@
 # vivaldi-update-workaround
-Basic Linux system updater script to work around Vivaldi browser bug VB-80663
+Basic Linux system updater script to work around Vivaldi browser bug VB-80663.
 
 VB-80663 - Vivaldi CPU usage increases to 100% on a single core if updated while an active session is running (only occurs on Linux).
 
