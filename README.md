@@ -1,9 +1,9 @@
 # vivaldi-update-workaround
-Basic Linux system updater shell script to work around Vivaldi browser bug VB-80663 by closing all active Vivaldi windows, updating the system, then restarting Vivaldi again. Only supports restart of a single window.
+Basic Linux system updater shell script to work around Vivaldi browser bug VB-80772 by closing all active Vivaldi windows, updating the system, then restarting Vivaldi again. Only supports restart of a single window.
 
 Includes update commands for apt, flatpak, and Steven Black's hosts file by default.
 
-VB-80663 - Vivaldi CPU usage increases to 100% on a single core if updated while an active session is running (only occurs on Linux).
+VB-80772 - "If Vivaldi is left up while a Linux package upgrade is done that includes Vivaldi, vivaldi-bin goes to 100% CPU, generates heat and continues after shutting down the UI."
 
 -----
 
