@@ -11,7 +11,7 @@ killall vivaldi-bin
 
 #updating apt packages
 apt-get update
-apt-get upgrade
+apt-get upgrade -y
 
 #updating flatpak packages
 flatpak update
