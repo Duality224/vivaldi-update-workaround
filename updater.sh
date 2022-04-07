@@ -13,13 +13,6 @@ killall vivaldi-bin
 apt-get update
 apt-get upgrade -y
 
-#updating flatpak packages
-flatpak update
-
-#updating Steven Black's hosts file
-cd /path/to/StevenBlack-hosts/folder
-python3 ./updateHostsFile.py --auto --replace --output /etc --flush-dns-cache --skipstatichosts --nogendata --blacklist ./blacklist --whitelist ./whitelist
-
 #restarting vivaldi as a standalone process and exiting terminal window
 sudo -u USERNAME /path/to/standalone.sh /opt/vivaldi/vivaldi
 exit
